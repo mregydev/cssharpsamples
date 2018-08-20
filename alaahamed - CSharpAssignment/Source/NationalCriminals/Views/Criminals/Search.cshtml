@@ -1,0 +1,120 @@
+﻿@model NationalCriminals.Models.CriminalsSearchModel
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>CriminalsSearchModel</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MinAge)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MinAge)
+                @Html.ValidationMessageFor(model => model.MinAge)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MaxAge)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MaxAge)
+                @Html.ValidationMessageFor(model => model.MaxAge)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MinWeight)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MinWeight)
+                @Html.ValidationMessageFor(model => model.MinWeight)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MaxWeight)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MaxWeight)
+                @Html.ValidationMessageFor(model => model.MaxWeight)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MinHeight)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MinHeight)
+                @Html.ValidationMessageFor(model => model.MinHeight)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MaxHeight)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MaxHeight)
+                @Html.ValidationMessageFor(model => model.MaxHeight)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.IsMale)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.IsMale)
+                @Html.ValidationMessageFor(model => model.IsMale)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.IsFemale)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.IsFemale)
+                @Html.ValidationMessageFor(model => model.IsFemale)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Nationality)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Nationality)
+                @Html.ValidationMessageFor(model => model.Nationality)
+            </div>
+
+
+            <p>
+                <input type="submit" value="Search" />
+            </p>
+
+            @ViewBag.Result
+        </fieldset>
+    }
+
+    <div>
+
+    </div>
+</body>
+</html>

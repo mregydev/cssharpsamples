@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalCriminalsWcf", "NationalCriminalsWcf\NationalCriminalsWcf.csproj", "{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalCriminalsBusiness", "NationalCriminalsBusiness\NationalCriminalsBusiness.csproj", "{5695266A-CA69-4461-A70F-92D018264292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalCriminalsDAL", "NationalCriminalsDAL\NationalCriminalsDAL.csproj", "{0E2467C6-D843-4AE5-9D45-2806F64C800E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wcf", "Wcf", "{6062724E-77B5-42A7-B4BA-6409B4F9AB88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvc", "Mvc", "{062BDCAD-8FBF-41EA-98D3-BAC0EAF3441F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalCriminals", "NationalCriminals\NationalCriminals.csproj", "{D7C801E7-80BE-497F-A001-E4E7FD7E8966}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7} = {6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5695266A-CA69-4461-A70F-92D018264292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5695266A-CA69-4461-A70F-92D018264292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5695266A-CA69-4461-A70F-92D018264292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5695266A-CA69-4461-A70F-92D018264292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2467C6-D843-4AE5-9D45-2806F64C800E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2467C6-D843-4AE5-9D45-2806F64C800E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2467C6-D843-4AE5-9D45-2806F64C800E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2467C6-D843-4AE5-9D45-2806F64C800E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C801E7-80BE-497F-A001-E4E7FD7E8966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C801E7-80BE-497F-A001-E4E7FD7E8966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C801E7-80BE-497F-A001-E4E7FD7E8966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C801E7-80BE-497F-A001-E4E7FD7E8966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DBAAED2-CFF6-40EB-A340-0C1C9BF60DE7} = {6062724E-77B5-42A7-B4BA-6409B4F9AB88}
+		{5695266A-CA69-4461-A70F-92D018264292} = {6062724E-77B5-42A7-B4BA-6409B4F9AB88}
+		{0E2467C6-D843-4AE5-9D45-2806F64C800E} = {6062724E-77B5-42A7-B4BA-6409B4F9AB88}
+		{D7C801E7-80BE-497F-A001-E4E7FD7E8966} = {062BDCAD-8FBF-41EA-98D3-BAC0EAF3441F}
+	EndGlobalSection
+EndGlobal

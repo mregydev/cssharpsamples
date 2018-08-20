@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CriminalSearchCriteria">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IgnoreGender" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsMale" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MaxAge" type="xs:double" />
+      <xs:element minOccurs="0" name="MaxHeight" type="xs:double" />
+      <xs:element minOccurs="0" name="MaxResultCount" type="xs:int" />
+      <xs:element minOccurs="0" name="MaxWeight" type="xs:double" />
+      <xs:element minOccurs="0" name="MinAge" type="xs:double" />
+      <xs:element minOccurs="0" name="MinHeight" type="xs:double" />
+      <xs:element minOccurs="0" name="MinWeight" type="xs:double" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CriminalSearchCriteria" nillable="true" type="tns:CriminalSearchCriteria" />
+</xs:schema>

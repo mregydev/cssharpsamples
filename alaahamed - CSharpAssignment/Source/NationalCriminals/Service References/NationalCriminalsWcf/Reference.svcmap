@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="30af3573-588b-49ff-901f-4085393c9da6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62689/NationalCriminals.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NationalCriminals.xsd" MetadataType="Schema" ID="54e18e6f-b686-4b66-8b77-f4c2ae500c64" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?xsd=xsd3" />
+    <MetadataFile FileName="NationalCriminals1.xsd" MetadataType="Schema" ID="e2d192ee-a201-48ea-93e7-a7104a8dd184" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?xsd=xsd2" />
+    <MetadataFile FileName="NationalCriminals2.xsd" MetadataType="Schema" ID="e1ef2567-1d64-4790-a9a4-43290580db7e" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?xsd=xsd1" />
+    <MetadataFile FileName="NationalCriminals3.xsd" MetadataType="Schema" ID="bb317684-7708-4dea-b9bc-e290ca5436c7" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?xsd=xsd0" />
+    <MetadataFile FileName="NationalCriminals.wsdl" MetadataType="Wsdl" ID="e203f113-9dee-4211-8ae5-5e1040b2c484" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?wsdl" />
+    <MetadataFile FileName="NationalCriminals4.xsd" MetadataType="Schema" ID="d37543f9-5360-4fbf-8d6e-61254d6a7019" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?xsd=xsd4" />
+    <MetadataFile FileName="NationalCriminals.disco" MetadataType="Disco" ID="4513d0fc-dd80-4ba6-aa7a-5edd37070dcf" SourceId="1" SourceUrl="http://localhost:62689/NationalCriminals.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

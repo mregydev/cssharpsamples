@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62689/NationalCriminals.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness.Enums" />
+  <xs:complexType name="UserProxy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserProxy" nillable="true" type="tns:UserProxy" />
+  <xs:complexType name="CriminalProxy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:double" />
+      <xs:element minOccurs="0" name="Height" type="xs:double" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NationalCriminalsBusiness.Enums" minOccurs="0" name="Sex" type="q1:GenderType" />
+      <xs:element minOccurs="0" name="Weight" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CriminalProxy" nillable="true" type="tns:CriminalProxy" />
+</xs:schema>

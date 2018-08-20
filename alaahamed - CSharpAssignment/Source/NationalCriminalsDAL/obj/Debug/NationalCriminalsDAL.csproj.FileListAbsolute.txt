@@ -1,0 +1,5 @@
+c:\users\alaa hamed\documents\visual studio 2013\Projects\NationalCriminalsWcf\NationalCriminalsDAL\bin\Debug\NationalCriminalsDAL.dll.config
+c:\users\alaa hamed\documents\visual studio 2013\Projects\NationalCriminalsWcf\NationalCriminalsDAL\bin\Debug\NationalCriminalsDAL.dll
+c:\users\alaa hamed\documents\visual studio 2013\Projects\NationalCriminalsWcf\NationalCriminalsDAL\bin\Debug\NationalCriminalsDAL.pdb
+c:\users\alaa hamed\documents\visual studio 2013\Projects\NationalCriminalsWcf\NationalCriminalsDAL\obj\Debug\NationalCriminalsDAL.dll
+c:\users\alaa hamed\documents\visual studio 2013\Projects\NationalCriminalsWcf\NationalCriminalsDAL\obj\Debug\NationalCriminalsDAL.pdb
