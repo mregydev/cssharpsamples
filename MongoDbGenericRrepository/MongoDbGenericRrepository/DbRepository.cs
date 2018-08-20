@@ -21,7 +21,7 @@ namespace MongoDbGenericRrepository
             this._db=client.GetDatabase(dbName);
         }
 
-        public List<T> GetAll<T>()
+        public List<T> GetAll()
         {
             
             var entityType = typeof(T);
@@ -49,7 +49,7 @@ namespace MongoDbGenericRrepository
 
             return list;
         }
-        public bool AddEntity<T>(T entity)
+        public bool AddEntity(T entity)
         {
             try
             {
@@ -76,7 +76,7 @@ namespace MongoDbGenericRrepository
             }
         }
 
-        public bool UpdateEntity<T>(T entity)
+        public bool UpdateEntity(T entity)
         {
             try
             {
@@ -106,7 +106,7 @@ namespace MongoDbGenericRrepository
             }
         }
 
-        public bool ReomveEntity<T>(string id)
+        public bool ReomveEntity(string id)
         {
             try
             {
